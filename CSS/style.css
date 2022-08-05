@@ -1,0 +1,293 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+body {
+  border: 0;
+  margin: 0;
+}
+
+.container {
+  font-family: roboto;
+  box-shadow: 0px 10px 14px -7px #505050;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #636c79;
+  padding-top: 25px;
+  padding-left: 40px;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.menu-items {
+  display: flex;
+  list-style: none;
+  color: #ffff;
+  width: 800px;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+.header-button {
+  position: relative;
+  margin-left: 30px;
+  margin-top: 8px;
+  width: 150px;
+  height: 40px;
+  border: 0.5px #f8f9f9 solid;
+  background-color: transparent;
+  color: #fff;
+}
+
+.introduction {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #636c79;
+  padding-top: 25px;
+  padding-left: 40px;
+  height: 800px;
+}
+
+.intro-image {
+  display: block;
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+  padding-top: 50px;
+  padding-left: 100px;
+}
+
+.desc {
+  display: grid;
+  width: 600px;
+  height: 550px;
+  padding-top: 50px;
+}
+
+.desc h1 {
+  position: relative;
+  margin-top: 10px;
+  color: #ffff;
+  font-family: Raleway;
+  font-size: 65px;
+}
+
+.desc h4 {
+  padding-top: 70px;
+  color: #c6c9ce;
+  font-family: Roboto;
+  line-height: 30px;
+  padding-bottom: 50px;
+  margin-top: -60px;
+  width: 500px;
+}
+
+#email {
+  height: 60px;
+  width: 400px;
+  margin-top: -40px;
+}
+
+.envelope {
+  position: relative;
+  top: -40px;
+  left: 5px;
+}
+
+#submit {
+  position: relative;
+  left: -4px;
+  height: 62px;
+  margin-left: none;
+  width: 150px;
+  border: 5px solid #ffff;
+  background-color: #8bb7a2;
+  color: #ffff;
+}
+
+.company-details-heading {
+  text-align: center;
+  margin-top: 100px;
+  font-family: raleway;
+  font-weight: 800;
+  font-size: 45px;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 50px;
+  font-family: roboto;
+  font-size: 20px;
+  justify-content: space-between;
+  justify-items: center;
+  list-style: none;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.number {
+  font-size: 50px;
+  font-weight: 700;
+}
+.company-details-image {
+  width: 1600px;
+  height: 800px;
+  object-position: top;
+  object-fit: cover;
+}
+
+.company-featues-heading {
+  text-align: center;
+  font-family: raleway;
+  margin-top: 130px;
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 70px;
+}
+
+.company-feature-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 1200px;
+  margin: auto;
+  margin-bottom: 70px;
+  justify-content: space-between;
+}
+
+.card-image {
+  width: 600px;
+  height: 600px;
+  object-position: top;
+  object-fit: cover;
+}
+
+.feature-card-heading,
+.heading-text {
+  font-family: raleway;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+
+.text-part {
+  height: 300px;
+  width: 500px;
+  margin: auto;
+}
+
+.feature-card-desc,
+.team-desc {
+  font-family: roboto;
+  font-weight: 400;
+  color: #a4a5a6;
+  line-height: 2;
+  margin-bottom: 40px;
+}
+
+.Lets-talk {
+  width: 150px;
+  height: 50px;
+  color: #ffff;
+  background-color: #8bb7a2;
+  font-size: 15px;
+  font-weight: 700;
+  border: none;
+}
+
+.company-team-heading {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  /* border: solid; */
+  margin-top: 150px;
+  margin-bottom: 50px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.company-team-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+.company-team-card {
+  width: 400px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+.company-team-card img {
+  height: 500px;
+}
+
+.name {
+  font-family: raleway;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.name-desc {
+  color: #a4a5a6;
+  text-indent: 1.8;
+  font-family: roboto;
+  font-weight: 400;
+}
+
+.company-team > .Lets-talk {
+  position: relative;
+  left: 45%;
+}
+
+.logo-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #10181d;
+  margin-top: 80px;
+  padding-top: 50px;
+  padding-left: 7%;
+  padding-right: 80px;
+  padding-bottom: 30px;
+}
+
+.line {
+  display: grid;
+  background-color: #10181d;
+  grid-template-columns: 80px 1440px 80px;
+  width: 1600px;
+}
+
+.middle {
+  border-bottom: 2px #505050 solid;
+}
+
+.social-media {
+  margin-left: 45%;
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  background-color: #10181d;
+  padding-top: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 80px;
+}
+
+.footer-link {
+  color: #ffff;
+}
+
+.products {
+  list-style: none;
+  line-height: 35px;
+  color: #a4a5a6;
+}
+
+.footer-link-head {
+  margin-left: 14%;
+  margin-bottom: 10px;
+}
